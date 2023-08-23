@@ -1,5 +1,6 @@
 module HickPackage
 
-# Write your package code here.
+export package_name
+include("functions.jl")
 
 end

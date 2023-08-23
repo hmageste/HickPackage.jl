@@ -1,6 +1,7 @@
-using HickPackage
+import HickPackage
 using Test
 
 @testset "HickPackage.jl" begin
-    # Write your tests here.
+    @test HickPackage.package_name() == "HickPackage"
+    @test HickPackage.package_name() != "RandomName"
 end
