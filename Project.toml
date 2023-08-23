@@ -1,0 +1,13 @@
+name = "HickPackage"
+uuid = "b9f104d2-198c-44b4-9a60-812ab96ca7b2"
+authors = ["Henrique Mageste"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
